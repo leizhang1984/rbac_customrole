@@ -1,0 +1,28 @@
+{
+    "id": "/subscriptions/b5aa1700-1510-4f35-b134-fe9c7c695df1/providers/Microsoft.Authorization/roleDefinitions/3167a400-a54b-45d8-9abb-95b16c035161",
+    "properties": {
+        "roleName": "delete_vnet_customrole",
+        "description": "",
+        "assignableScopes": [
+            "/subscriptions/b5aa1700-1510-4f35-b134-fe9c7c695df1"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Support/*",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "*/register/action",
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.Network/virtualNetworks/delete"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

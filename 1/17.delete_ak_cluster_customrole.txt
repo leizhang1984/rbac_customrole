@@ -1,0 +1,29 @@
+{
+    "id": "/subscriptions/b5aa1700-1510-4f35-b134-fe9c7c695df1/providers/Microsoft.Authorization/roleDefinitions/fa323998-a8f3-46ee-81c8-66698a141a27",
+    "properties": {
+        "roleName": "delete_aks_cluster_customrole",
+        "description": "",
+        "assignableScopes": [
+            "/subscriptions/b5aa1700-1510-4f35-b134-fe9c7c695df1"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Support/*",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "*/register/action",
+                    "Microsoft.ContainerService/managedClusters/read",
+                    "Microsoft.ContainerService/managedClusters/delete",
+                    "Microsoft.ContainerService/managedClusters/agentPools/read"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

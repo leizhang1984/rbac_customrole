@@ -1,0 +1,32 @@
+{
+    "id": "/subscriptions/b5aa1700-1510-4f35-b134-fe9c7c695df1/providers/Microsoft.Authorization/roleDefinitions/f1bdad23-c046-406c-9e98-5d1df863b2cb",
+    "properties": {
+        "roleName": "delete_vnet_peering_customrole",
+        "description": "",
+        "assignableScopes": [
+            "/subscriptions/b5aa1700-1510-4f35-b134-fe9c7c695df1"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Support/*",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "*/register/action",
+                    "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/read",
+                    "Microsoft.Network/virtualNetworks/virtualNetworkPeerings/delete",
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.Network/virtualNetworks/subnets/read",
+                    "Microsoft.Network/virtualNetworks/remoteVirtualNetworkPeeringProxies/read",
+                    "Microsoft.Network/virtualNetworks/remoteVirtualNetworkPeeringProxies/delete"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
