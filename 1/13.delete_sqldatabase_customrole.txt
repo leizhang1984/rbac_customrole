@@ -1,7 +1,7 @@
 {
-    "id": "/subscriptions/b5aa1700-1510-4f35-b134-fe9c7c695df1/providers/Microsoft.Authorization/roleDefinitions/6df3b6eb-4087-4659-80f3-c1f1dcbb4c11",
+    "id": "/subscriptions/b5aa1700-1510-4f35-b134-fe9c7c695df1/providers/Microsoft.Authorization/roleDefinitions/c1124746-2896-4679-9b1f-3578111e1284",
     "properties": {
-        "roleName": "delete_vpngateway_custom_role",
+        "roleName": "delete_sqldatabase_customrole",
         "description": "",
         "assignableScopes": [
             "/subscriptions/b5aa1700-1510-4f35-b134-fe9c7c695df1"
@@ -16,9 +16,11 @@
                     "Microsoft.Resources/deployments/*",
                     "Microsoft.Resources/subscriptions/resourceGroups/read",
                     "*/register/action",
-                    "Microsoft.Network/publicIPAddresses/read",
-                    "Microsoft.Network/virtualNetworkGateways/read",
-                    "Microsoft.Network/virtualNetworkGateways/delete"
+                    "Microsoft.Sql/managedInstances/databases/read",
+                    "Microsoft.Sql/managedInstances/databases/delete",
+                    "Microsoft.Sql/servers/databases/read",
+                    "Microsoft.Sql/servers/databases/delete",
+                    "Microsoft.Sql/servers/read"
                 ],
                 "notActions": [],
                 "dataActions": [],

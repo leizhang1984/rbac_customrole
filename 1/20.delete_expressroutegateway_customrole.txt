@@ -1,0 +1,29 @@
+{
+    "id": "/subscriptions/b5aa1700-1510-4f35-b134-fe9c7c695df1/providers/Microsoft.Authorization/roleDefinitions/3eaa1f03-5825-4abb-b99a-60fa5c755216",
+    "properties": {
+        "roleName": "delete_expressroutegateway_customrole",
+        "description": "",
+        "assignableScopes": [
+            "/subscriptions/b5aa1700-1510-4f35-b134-fe9c7c695df1"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Support/*",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "*/register/action",
+                    "Microsoft.Network/publicIPAddresses/read",
+                    "Microsoft.Network/virtualNetworkGateways/read",
+                    "Microsoft.Network/virtualNetworkGateways/delete"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
