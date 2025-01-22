@@ -1,0 +1,47 @@
+{
+    "id": "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb/providers/Microsoft.Authorization/roleDefinitions/0cff3748-cd41-4a9a-8977-686f73133634",
+    "properties": {
+        "roleName": "security_custom",
+        "description": "create and manage azure Application Gateway, Azure DDos",
+        "assignableScopes": [
+            "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb",
+            "/subscriptions/c4959ac6-4963-4b67-90dd-da46865b607f"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Authorization/policyAssignments/*",
+                    "Microsoft.Authorization/policyDefinitions/*",
+                    "Microsoft.Authorization/policyExemptions/*",
+                    "Microsoft.Authorization/policySetDefinitions/*",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.Network/loadBalancers/*/read",
+                    "Microsoft.Network/applicationGateways/*",
+                    "Microsoft.Network/publicIPAddresses/*",
+                    "Microsoft.Network/ddosProtectionPlans/*",
+                    "Microsoft.Support/*",
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.Network/virtualNetworks/subnets/read",
+                    "Microsoft.Network/virtualNetworks/subnets/join/action",
+                    "Microsoft.Network/virtualNetworks/write",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Insights/metrics/read",
+                    "Microsoft.Insights/metricDefinitions/read",
+                    "Microsoft.operationalInsights/workspaces/*/read",
+                    "*/register/action",
+                    "Microsoft.ManagedIdentity/userAssignedIdentities/assign/action",
+                    "Microsoft.Network/ApplicationGatewayWebApplicationFirewallPolicies/*",
+                    "Microsoft.Security/*",
+                    "Microsoft.IoTSecurity/*",
+                    "Microsoft.IoTFirmwareDefense/*"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

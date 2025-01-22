@@ -1,0 +1,43 @@
+{
+    "id": "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb/providers/Microsoft.Authorization/roleDefinitions/8744659e-9d28-4337-be1b-0cba86585d8c",
+    "properties": {
+        "roleName": "dedicatedHSM_custom",
+        "description": "create and manage Azure Dedicate HSM",
+        "assignableScopes": [
+            "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.HardwareSecurityModules/*",
+                    "Microsoft.Network/privateEndpoints/*",
+                    "Microsoft.Network/privateDnsZones/*",
+                    "Microsoft.Network/networkSecurityGroups/*",
+                    "Microsoft.Network/routeTables/join/action",
+                    "Microsoft.Support/*",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.Network/virtualNetworks/subnets/read",
+                    "Microsoft.Network/virtualNetworks/subnets/join/action",
+                    "Microsoft.Network/virtualNetworks/write",
+                    "Microsoft.Network/virtualNetworks/join/action",
+                    "Microsoft.Network/networkInterfaces/*",
+                    "Microsoft.Network/ddosProtectionPlans/join/action",
+                    "Microsoft.Network/virtualNetworkGateways/*",
+                    "Microsoft.Network/publicIPAddresses/*",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Insights/metrics/read",
+                    "Microsoft.Insights/metricDefinitions/read",
+                    "*/register/action"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb/providers/Microsoft.Authorization/roleDefinitions/d6b51742-544f-4ed3-8c85-b4b2f8297b7c",
+    "properties": {
+        "roleName": "cosmosdb_redis_sql_mysql_custom",
+        "description": "create and manage azure cosmosdb, azure redis cache, azure mysql flexible server and azure postgre sql flexible server only",
+        "assignableScopes": [
+            "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.DocumentDb/*",
+                    "Microsoft.Cache/*",
+                    "Microsoft.DBforMySQL/*",
+                    "Microsoft.DBforPostgreSQL/*",
+                    "Microsoft.Support/*",
+                    "Microsoft.Network/virtualNetworks/write",
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.Network/virtualNetworks/subnets/read",
+                    "Microsoft.Network/virtualNetworks/subnets/write",
+                    "Microsoft.Network/virtualNetworks/subnets/join/action",
+                    "Microsoft.Network/virtualNetworks/join/action",
+                    "Microsoft.Network/privateEndpoints/*",
+                    "Microsoft.Network/routeTables/join/action",
+                    "Microsoft.Network/privateDnsZones/*",
+                    "Microsoft.Network/ddosProtectionPlans/join/action",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Insights/metrics/read",
+                    "Microsoft.Insights/metricDefinitions/read",
+                    "*/register/action"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

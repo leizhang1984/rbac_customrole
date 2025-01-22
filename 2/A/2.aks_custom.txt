@@ -1,0 +1,45 @@
+{
+    "id": "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb/providers/Microsoft.Authorization/roleDefinitions/4411a11b-5931-40eb-b3d3-187534b50e2d",
+    "properties": {
+        "roleName": "aks_custom",
+        "description": "create and manage azure aks",
+        "assignableScopes": [
+            "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Authorization/*/Write",
+                    "Microsoft.Authorization/*/Delete",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.ContainerService/managedClusters/*",
+                    "Microsoft.Support/*",
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.Network/virtualNetworks/subnets/read",
+                    "Microsoft.Network/virtualNetworks/subnets/join/action",
+                    "Microsoft.Network/privateEndpoints/*",
+                    "Microsoft.Network/privateDnsZones/*",
+                    "Microsoft.ManagedIdentity/userAssignedIdentities/*",
+                    "Microsoft.EventHub/*",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Insights/diagnosticSettings/*",
+                    "Microsoft.Insights/DiagnosticSettingsCategories/Read",
+                    "Microsoft.OperationalInsights/*",
+                    "Microsoft.OperationsManagement/*",
+                    "Microsoft.Insights/Metrics/*",
+                    "Microsoft.Insights/MetricDefinitions/*",
+                    "*/register/action",
+                    "Microsoft.Compute/virtualMachineScaleSets/*/read"
+                ],
+                "notActions": [],
+                "dataActions": [
+                    "Microsoft.ContainerService/managedClusters/*"
+                ],
+                "notDataActions": []
+            }
+        ]
+    }
+}

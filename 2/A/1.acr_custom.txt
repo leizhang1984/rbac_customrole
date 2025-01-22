@@ -1,0 +1,41 @@
+{
+    "id": "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb/providers/Microsoft.Authorization/roleDefinitions/653d4883-c52d-4b81-b1b7-d9b6952cd4e8",
+    "properties": {
+        "roleName": "acr_custom",
+        "description": "manage azure acr only",
+        "assignableScopes": [
+            "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.ContainerRegistry/*",
+                    "Microsoft.Network/privateEndpoints/*",
+                    "Microsoft.Network/privateDnsZones/*",
+                    "Microsoft.Network/networkSecurityGroups/*",
+                    "Microsoft.Network/routeTables/join/action",
+                    "Microsoft.Support/*",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.Network/virtualNetworks/subnets/read",
+                    "Microsoft.Network/virtualNetworks/subnets/join/action",
+                    "Microsoft.Network/virtualNetworks/write",
+                    "Microsoft.Network/virtualNetworks/join/action",
+                    "Microsoft.Network/networkInterfaces/*",
+                    "Microsoft.Network/ddosProtectionPlans/join/action",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Insights/metrics/read",
+                    "Microsoft.Insights/metricDefinitions/read",
+                    "*/register/action"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

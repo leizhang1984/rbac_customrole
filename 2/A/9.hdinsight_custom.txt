@@ -1,0 +1,43 @@
+{
+    "id": "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb/providers/Microsoft.Authorization/roleDefinitions/1abb284d-53dc-45af-89b0-e35431b27b27",
+    "properties": {
+        "roleName": "hdinsight_custom",
+        "description": "create and manage Azure HDInsight Service",
+        "assignableScopes": [
+            "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb",
+            "/subscriptions/c4959ac6-4963-4b67-90dd-da46865b607f"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Authorization/*/Delete",
+                    "Microsoft.Authorization/*/Write",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.HDInsight/*",
+                    "Microsoft.Storage/storageAccounts/*",
+                    "Microsoft.Support/*",
+                    "Microsoft.Network/virtualNetworks/write",
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.Network/virtualNetworks/subnets/read",
+                    "Microsoft.Network/virtualNetworks/subnets/write",
+                    "Microsoft.Network/virtualNetworks/subnets/join/action",
+                    "Microsoft.Network/virtualNetworks/join/action",
+                    "Microsoft.Network/privateEndpoints/*",
+                    "Microsoft.Network/routeTables/join/action",
+                    "Microsoft.Network/privateDnsZones/*",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Insights/metrics/read",
+                    "Microsoft.Insights/metricDefinitions/read",
+                    "*/register/action",
+                    "Microsoft.ManagedIdentity/*"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb/providers/Microsoft.Authorization/roleDefinitions/77de0994-af9f-4852-9159-99c26f88b6c3",
+    "properties": {
+        "roleName": "firewall_readonly_custom",
+        "description": "",
+        "assignableScopes": [
+            "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Network/azurefirewalls/read",
+                    "Microsoft.Network/azurefirewalls/learnedIPPrefixes/action",
+                    "Microsoft.Network/azureFirewalls/providers/Microsoft.Insights/DiagnosticSettings/Read",
+                    "Microsoft.Network/azureFirewalls/applicationRuleCollections/read",
+                    "Microsoft.Network/azurefirewalls/providers/Microsoft.Insights/logDefinitions/read",
+                    "Microsoft.Network/azureFirewalls/natRuleCollections/read",
+                    "Microsoft.Network/azureFirewalls/networkRuleCollections/read",
+                    "Microsoft.Network/azurefirewalls/providers/Microsoft.Insights/metricDefinitions/read",
+                    "Microsoft.Network/azureFirewallFqdnTags/read",
+                    "Microsoft.Network/firewallPolicies/read",
+                    "Microsoft.Network/firewallPolicies/ruleCollectionGroups/read",
+                    "Microsoft.Network/firewallPolicies/ruleGroups/read",
+                    "Microsoft.Network/frontDoorWebApplicationFirewallManagedRuleSets/read",
+                    "Microsoft.Network/frontDoorWebApplicationFirewallPolicies/read"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": "/subscriptions/c4959ac6-4963-4b67-90dd-da46865b607f/providers/Microsoft.Authorization/roleDefinitions/014d04a5-a31f-4919-a587-022ffebde485",
+    "properties": {
+        "roleName": "pgsql_custom",
+        "description": "create and manage Azure PostgreSQL Flexible Server",
+        "assignableScopes": [
+            "/subscriptions/c4959ac6-4963-4b67-90dd-da46865b607f"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.DBforPostgreSQL/*",
+                    "Microsoft.Support/*",
+                    "Microsoft.Network/virtualNetworks/write",
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.Network/virtualNetworks/subnets/read",
+                    "Microsoft.Network/virtualNetworks/subnets/write",
+                    "Microsoft.Network/virtualNetworks/subnets/join/action",
+                    "Microsoft.Network/virtualNetworks/join/action",
+                    "Microsoft.Network/networkInterfaces/write",
+                    "Microsoft.Network/privateEndpoints/*",
+                    "Microsoft.Network/routeTables/join/action",
+                    "Microsoft.Network/privateDnsZones/*",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Insights/metrics/read",
+                    "Microsoft.Insights/metricDefinitions/read",
+                    "*/register/action",
+                    "Microsoft.DataMigration/*/read",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.DataMigration/*/write",
+                    "Microsoft.DataMigration/*/delete",
+                    "Microsoft.DataMigration/*/action",
+                    "Microsoft.Resources/deployments/validate/action",
+                    "Microsoft.Resources/deployments/*/read",
+                    "Microsoft.Resources/deployments/*/write",
+                    "Microsoft.Network/networkInterfaces/ipConfigurations/read"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

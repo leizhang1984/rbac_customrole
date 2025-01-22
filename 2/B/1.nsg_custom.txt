@@ -1,0 +1,33 @@
+{
+    "id": "/subscriptions/c4959ac6-4963-4b67-90dd-da46865b607f/providers/Microsoft.Authorization/roleDefinitions/93a2c415-47e1-46b1-9009-67f3cf95235d",
+    "properties": {
+        "roleName": "nsg_custom",
+        "description": "create and manager network security groups",
+        "assignableScopes": [
+            "/subscriptions/c4959ac6-4963-4b67-90dd-da46865b607f"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Network/adminNetworkSecurityGroups/read",
+                    "Microsoft.Network/adminNetworkSecurityGroups/write",
+                    "Microsoft.Network/adminNetworkSecurityGroups/delete",
+                    "Microsoft.Network/networkSecurityGroups/read",
+                    "Microsoft.Network/networkSecurityGroups/write",
+                    "Microsoft.Network/networkSecurityGroups/delete",
+                    "Microsoft.Network/networkSecurityGroups/join/action",
+                    "Microsoft.Network/networkSecurityGroups/defaultSecurityRules/read",
+                    "Microsoft.Network/networksecuritygroups/providers/Microsoft.Insights/diagnosticSettings/read",
+                    "Microsoft.Network/networksecuritygroups/providers/Microsoft.Insights/diagnosticSettings/write",
+                    "Microsoft.Network/networksecuritygroups/providers/Microsoft.Insights/logDefinitions/read",
+                    "Microsoft.Network/networkSecurityGroups/securityRules/read",
+                    "Microsoft.Network/networkSecurityGroups/securityRules/write",
+                    "Microsoft.Network/networkSecurityGroups/securityRules/delete"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

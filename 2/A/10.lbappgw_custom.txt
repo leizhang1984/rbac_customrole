@@ -1,0 +1,72 @@
+{
+    "id": "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb/providers/Microsoft.Authorization/roleDefinitions/96ee0968-91e7-4d83-a8be-122a9ff836b4",
+    "properties": {
+        "roleName": "lbappgw_custom",
+        "description": "create and manage azure load balancer and Azure Application Gateway",
+        "assignableScopes": [
+            "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb",
+            "/subscriptions/c4959ac6-4963-4b67-90dd-da46865b607f"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "*/read",
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.Authorization/*/delete",
+                    "Microsoft.Authorization/*/write",
+                    "Microsoft.Authorization/elevateAccess/Action",
+                    "Microsoft.Compute/availabilitySets/*",
+                    "Microsoft.Compute/locations/*",
+                    "Microsoft.Compute/virtualMachines/*/read",
+                    "Microsoft.Compute/virtualMachineScaleSets/*/read",
+                    "Microsoft.Compute/disks/read",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.Network/gatewayLoadBalancerAliases/*",
+                    "Microsoft.Network/loadBalancers/*",
+                    "Microsoft.Network/applicationGateways/*",
+                    "Microsoft.Network/networkInterfaces/loadBalancers/read",
+                    "Microsoft.Network/loadBalancers/backendAddressPools/join/action",
+                    "Microsoft.Network/loadBalancers/inboundNatPools/join/action",
+                    "Microsoft.Network/loadBalancers/inboundNatRules/join/action",
+                    "Microsoft.Network/loadBalancers/probes/join/action",
+                    "Microsoft.Network/loadBalancers/read",
+                    "Microsoft.Network/locations/*",
+                    "Microsoft.Network/networkInterfaces/*",
+                    "Microsoft.Network/networkSecurityGroups/join/action",
+                    "Microsoft.Network/networkSecurityGroups/read",
+                    "Microsoft.Network/publicIPAddresses/join/action",
+                    "Microsoft.Network/publicIPAddresses/read",
+                    "Microsoft.Network/locations/setLoadBalancerFrontendPublicIpAddresses/action",
+                    "Microsoft.Network/virtualNetworks/joinLoadBalancer/action",
+                    "Microsoft.Network/virtualNetworks/subnets/joinLoadBalancer/action",
+                    "Microsoft.Network/virtualNetworks/read",
+                    "Microsoft.Network/virtualNetworks/subnets/read",
+                    "Microsoft.Network/virtualNetworks/subnets/write",
+                    "Microsoft.Network/virtualNetworks/subnets/join/action",
+                    "Microsoft.Network/virtualNetworks/join/action",
+                    "Microsoft.Network/virtualNetworkGateways/read",
+                    "Microsoft.Network/routeTables/read",
+                    "Microsoft.Network/publicIPAddresses/*",
+                    "Microsoft.EventHub/*",
+                    "Microsoft.ManagedIdentity/userAssignedIdentities/assign/action",
+                    "Microsoft.KeyVault/vaults/write",
+                    "Microsoft.Support/*",
+                    "Microsoft.Insights/alertRules/*",
+                    "Microsoft.Insights/diagnosticSettings/*",
+                    "Microsoft.OperationalInsights/*",
+                    "Microsoft.OperationsManagement/*",
+                    "Microsoft.Insights/Metrics/*",
+                    "Microsoft.Insights/MetricDefinitions/*",
+                    "*/register/action"
+                ],
+                "notActions": [],
+                "dataActions": [
+                    "Microsoft.EventHub/*"
+                ],
+                "notDataActions": []
+            }
+        ]
+    }
+}

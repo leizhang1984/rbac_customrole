@@ -1,0 +1,44 @@
+{
+    "id": "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb/providers/Microsoft.Authorization/roleDefinitions/b17f938f-2ecd-4b57-851e-afad1fa15fbb",
+    "properties": {
+        "roleName": "DmsCustomRoleForVM",
+        "description": "DMS Customer Role for VM",
+        "assignableScopes": [
+            "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Storage/storageAccounts/read",
+                    "Microsoft.Storage/storageAccounts/listkeys/action",
+                    "Microsoft.Storage/storageAccounts/blobServices/read",
+                    "Microsoft.Storage/storageAccounts/blobServices/write",
+                    "Microsoft.Storage/storageAccounts/blobServices/containers/read",
+                    "Microsoft.Network/networkSecurityGroups/securityRules/write",
+                    "Microsoft.SqlVirtualMachine/sqlVirtualMachines/read",
+                    "Microsoft.SqlVirtualMachine/sqlVirtualMachines/write",
+                    "Microsoft.DataMigration/locations/operationResults/read",
+                    "Microsoft.DataMigration/locations/operationStatuses/read",
+                    "Microsoft.DataMigration/locations/sqlMigrationServiceOperationResults/read",
+                    "Microsoft.DataMigration/databaseMigrations/write",
+                    "Microsoft.DataMigration/databaseMigrations/read",
+                    "Microsoft.DataMigration/databaseMigrations/delete",
+                    "Microsoft.DataMigration/databaseMigrations/cancel/action",
+                    "Microsoft.DataMigration/databaseMigrations/cutover/action",
+                    "Microsoft.DataMigration/sqlMigrationServices/write",
+                    "Microsoft.DataMigration/sqlMigrationServices/delete",
+                    "Microsoft.DataMigration/sqlMigrationServices/read",
+                    "Microsoft.DataMigration/sqlMigrationServices/listAuthKeys/action",
+                    "Microsoft.DataMigration/sqlMigrationServices/regenerateAuthKeys/action",
+                    "Microsoft.DataMigration/sqlMigrationServices/deleteNode/action",
+                    "Microsoft.DataMigration/sqlMigrationServices/listMonitoringData/action",
+                    "Microsoft.DataMigration/sqlMigrationServices/listMigrations/read",
+                    "Microsoft.DataMigration/sqlMigrationServices/MonitoringData/read"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}

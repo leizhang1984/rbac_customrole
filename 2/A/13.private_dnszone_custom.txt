@@ -1,0 +1,31 @@
+{
+    "id": "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb/providers/Microsoft.Authorization/roleDefinitions/2b3add95-d3b6-4cfc-82c8-73e02c1ee1a7",
+    "properties": {
+        "roleName": "private_dnszone_custom",
+        "description": "create and manage Azure Private DNS Zone, while cannot delete private dns zone",
+        "assignableScopes": [
+            "/subscriptions/074b8f7e-9eb5-4c38-b5f9-a39cf7876bdb",
+            "/subscriptions/c4959ac6-4963-4b67-90dd-da46865b607f"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Authorization/*/read",
+                    "Microsoft.ResourceHealth/availabilityStatuses/read",
+                    "Microsoft.Resources/deployments/*",
+                    "Microsoft.Resources/subscriptions/resourceGroups/read",
+                    "Microsoft.Support/*",
+                    "Microsoft.Network/privateDnsZones/*/read",
+                    "Microsoft.Network/privateDnsZones/*/write",
+                    "Microsoft.Network/privateDnsZones/join/action",
+                    "Microsoft.Network/virtualnetworks/*/read",
+                    "Microsoft.Network/virtualNetworks/join/action",
+                    "*/register/action"
+                ],
+                "notActions": [],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
